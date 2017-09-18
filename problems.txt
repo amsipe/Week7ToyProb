@@ -1,0 +1,36 @@
+Easy: Create the tests below for a function that will take in two integer parameters.
+• Write a test that will verify that the function returns the two integers multiplied together.
+• Write a test that will verify that the function returns false if invalid parameters are passed in.
+• Write a function that will make these tests succeed.
+Medium: Create the tests below for a function that will take in a single object parameter with two properties, a string and a single character. 
+• Write a test that will verify that the function returns the first indice where that character is found in the string.
+• Write a test that will verify that the function returns false if the character is not found in the string.
+• Write a test that will verify that the function returns false if the parameter passed into the function is invalid.
+• Write a function that will make these tests succeed.
+Hard: Create the tests below for a function that will take in an object of N people. Each person will have a string age property and a string location property.  The function will return an entire original object with each person’s age + 5 years. Note that the properties should be returned as a string since they were passed in as a string.
+• Write a test that will verify that the function returns an object with a single person’s age modified correctly.
+• Write a test that will verify that the function returns an object with 5 people with their ages modified correctly.
+• Write a test that will verify that the function returns false if an invalid parameter is passed in.
+• Write a function that will make these tests succeed.
+Example Parameter --
+{
+    Chris: {
+        Age: ’26’,
+        Location: ‘Charlotte',
+    },
+    Jonathan: {
+        Age: ’32’,
+        Location: ‘Atlanta’,
+    },
+}
+Example Returned Object —
+{
+    Chris: {
+        Age: ’31’,
+        Location: ‘Charlotte',
+    },
+    Jonathan: {
+        Age: ’37’,
+        Location: ‘Atlanta’,
+    },
+}
